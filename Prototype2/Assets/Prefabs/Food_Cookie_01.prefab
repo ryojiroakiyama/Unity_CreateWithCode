@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4512449303499409711}
   - component: {fileID: 4512449303500540911}
   - component: {fileID: 4512449304202989872}
+  - component: {fileID: 1366156637537371376}
   m_Layer: 0
   m_Name: Food_Cookie_01
   m_TagString: Untagged
@@ -26,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4512449303502476591}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 3.31}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
@@ -91,3 +92,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 40
+--- !u!114 &1366156637537371376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4512449303502476591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b2ac45ef962149849d3ee5778e19797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
